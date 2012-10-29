@@ -92,6 +92,10 @@ function [split_and_error, labels] = myDstump(file, fold)
             end
         end
         split_feature = feature_to_split;
+        
+        %testing
+        %mat1 = currentCellTrain(currentCellTrain(:,5)==8,:)
+        
         %values_of_best_feature
         %display(element_class)
         %get all the rows and iterate over the rows
